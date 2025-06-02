@@ -1,0 +1,23 @@
+{
+  "name": "automation_js_4.2_puppeteer",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chukinant/automation_js_4.2_puppeteer.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chukinant/automation_js_4.2_puppeteer/issues"
+  },
+  "homepage": "https://github.com/chukinant/automation_js_4.2_puppeteer#readme",
+  "description": "",
+  "dependencies": {
+    "puppeteer": "^24.10.0"
+  }
+}

@@ -37,7 +37,6 @@ describe("test suite on booking", () => {
         const actualTime = await page.$eval('.ticket__details.ticket__start', el => el.textContent);
         const actualRowSeat = await page.$eval('.ticket__details.ticket__chairs', el => el.textContent);
         await expect(actualTime).toEqual(seanceData.time);
-        // expect(actualMovie).toEqual(seanceData.movie);
         await expect(actualRowSeat).toEqual(seanceData.rowSeat);
     });
 
